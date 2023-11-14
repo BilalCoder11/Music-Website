@@ -126,3 +126,79 @@ button:hover{
     background-color: blue;
     color: white;
 }
+.container > content{
+    font-size: 38px;
+    font-weight: 300;
+}
+.hero-section2{
+    background-image: url(https://images.pexels.com/photos/1763075/pexels-photo-1763075.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-repeat: no-repeat;
+    background-size: cover;
+     min-height:800px;
+}
+.hero-section2{
+justify-content: center;
+align-items: center;
+}
+.hero-content{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+.hero-content h2{
+    font-size: 30px;
+    font-weight: 600;
+}
+.hero-content p{
+    font-size: 32px;
+}
+.Card-section{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    margin: 80px;
+}
+.card-content{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;  
+    align-items: center;
+    justify-content: center;
+    transition: 0.5 ease-in-out;
+}
+.btn22{
+    background-color: purple;
+    color: white;
+}
+.card-content:hover{border: 10px solid beige;
+box-shadow: 5px 5px 5x beige;
+transition: 0.5 ease-in-out;}
+.item{
+    background-color:rgb(0, 60, 255);
+    color: white;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    padding: 50px;
+}
+.item1{
+    display: flex;
+    flex-direction: column;
+    gap:15px;
+}
+.item1 ul{
+    display: flex;
+    flex-direction: column;
+        list-style-position: outside;
+        padding-left: 0;
+}
+footer h1{
+    text-align: center;
+    color:white;
+    font-size: 35px;
+    font-weight: 400;
+    background-color: black;
+}
